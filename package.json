@@ -1,0 +1,26 @@
+{
+  "name": "wli",
+  "version": "1.0.0",
+  "description": "",
+  "bin": {
+    "i18nast": "./mycli.js"
+  },
+  "main": "mycli.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^8.2.0",
+    "globby": "11.0.4",
+    "inquirer": "^7.0.4",
+    "jscodeshift": "^0.13.1",
+    "loadsh": "0.0.4",
+    "ora": "^4.0.3",
+    "recast": "^0.21.1"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.18.6",
+    "@babel/preset-typescript": "^7.18.6"
+  }
+}
